@@ -11,7 +11,7 @@ return {
   },
   lazy = false,
   keys = {
-    { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal right reveal_file=<cfile> reveal_force_cwd<cr>', silent = true },
   },
   opts = {
     filesystem = {
