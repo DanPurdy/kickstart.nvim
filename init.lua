@@ -353,9 +353,9 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader>saf', function()
         builtin.live_grep {
           hidden = true,
-          cwd = '~/workspace/wonderbly/',
+          cwd = '~/workspace/personal/wonderbly/',
         }
-      end, { desc = '[S]earch Wonderbly by [G]rep' })
+      end, { desc = '[S]earch wonderbly by [G]rep' })
       vim.keymap.set('n', '<leader>sd', builtin.diagnostics, { desc = '[S]earch [D]iagnostics' })
       vim.keymap.set('n', '<leader>sr', builtin.resume, { desc = '[S]earch [R]esume' })
       vim.keymap.set('n', '<leader>s.', builtin.oldfiles, { desc = '[S]earch Recent Files ("." for repeat)' })
@@ -909,7 +909,7 @@ require('lazy').setup({
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
-  -- { import = 'custom.plugins' },
+  { import = 'custom.plugins' },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
